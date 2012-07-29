@@ -53,3 +53,5 @@
 			<div class="description"><?php bloginfo('description'); ?></div>
 		</div>
 
+		<?php wp_nav_menu( 'sort_column=menu_order&container_class=menu-header' ); ?>
+
