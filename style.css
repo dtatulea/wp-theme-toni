@@ -38,6 +38,10 @@ ul, ol { margin: 0 0 10px 0; }
 .entry a { }
 .entry a:hover { }
 
+.menu a {
+	text-decoration: none;
+	color: black;
+}
 pre { }
 code, tt { }
 
@@ -128,3 +132,5 @@ tr { page-break-inside: avoid; }
 a { text-decoration: none; color: black; }
 	
 } /* END print media */
+
+.page-wrap { display: inline; }
