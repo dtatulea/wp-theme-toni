@@ -21,6 +21,16 @@ body { background: white; font: 14px/1.4 Georgia, Serif; }
 	margin: 20px auto;
 }
 
+#header h1 {
+	text-align: right;
+}
+
+#header a {
+	font-weight: normal;
+	text-decoration: none;
+	color: grey;
+}
+
 .menu-header {
 	width: 200px;
 	float: left;
