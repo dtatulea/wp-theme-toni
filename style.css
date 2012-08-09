@@ -42,6 +42,11 @@ ul, ol { margin: 0 0 10px 0; }
 	text-decoration: none;
 	color: black;
 }
+
+ul.sub-menu {
+	list-style-type: none;
+	margin-left: 10px;
+}
 pre { }
 code, tt { }
 
