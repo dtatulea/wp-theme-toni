@@ -39,6 +39,11 @@ body { background: white; font: 14px/1.6 Courier, Serif; }
 	color: grey;
 }
 
+#footer {
+	bottom: 10%;
+	position: fixed;
+}
+
 .menu-header {
 	width: 200px;
 	float: left;
