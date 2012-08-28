@@ -10,7 +10,7 @@ Version: 1
 @media screen {
 
 * { margin: 0; padding: 0; }
-body { background: white; font: 12px/1.4 Courier, Serif; }
+body { background: white; font: 14px/1.6 Courier, Serif; }
 .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
 .clear { clear: both; }
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -19,6 +19,14 @@ body { background: white; font: 12px/1.4 Courier, Serif; }
 #page-wrap {
 	width: 960px;
 	margin: 20px auto;
+}
+
+#header {
+	position: fixed;
+	top:10%;
+	right:20%;
+	width:100px;
+	line-height: 30px;
 }
 
 #header h1 {
@@ -34,13 +42,13 @@ body { background: white; font: 12px/1.4 Courier, Serif; }
 .menu-header {
 	width: 200px;
 	float: left;
-	margin-top: 20px;
+	margin-top: 90px;
 }
 
 .post {
-	width: 750px;
+	width: 500px;
 	float: left;
-	margin-top: 20px;
+	margin-top: 80px;
 }
 
 h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
@@ -63,20 +71,27 @@ ul, ol { margin: 0 0 10px 0; }
 .entry a { }
 .entry a:hover { }
 
+ul.menu  {
+	list-style-type: none;
+}
+
 .menu a {
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	font-size: 120%;
 }
 
 .sub-menu a {
 	font-weight: normal;
+	font-size: 100%;
 }
 
 ul.sub-menu {
 	list-style-type: none;
-	margin-left: 10px;
+	margin-left: 1em;
 }
+
 pre { }
 code, tt { }
 
