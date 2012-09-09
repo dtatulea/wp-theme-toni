@@ -38,6 +38,8 @@
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/consolamono" rel="stylesheet" type="text/css"/>
+
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 	<?php wp_head(); ?>
